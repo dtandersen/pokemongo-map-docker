@@ -6,3 +6,4 @@ RUN git clone -b develop https://github.com/AHAAAAAAA/PokemonGo-Map.git \
  && npm install \
  && npm install -g grunt-cli \
  && npm install node-sass
+ && grunt build
