@@ -8,4 +8,4 @@
 	--env PASSWORD=password \
 	--env LOCATION="coords" \
 	--env GMAPS_KEY=key \
-	dtandersen/pokemongo-map-docker
+	dtandersen/pokemongo-map
