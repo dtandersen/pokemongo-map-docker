@@ -11,3 +11,7 @@
 	--env LOCATION="coords" \
 	--env GMAPS_KEY=key \
 	dtandersen/pokemongo-map
+
+## Legal
+
+All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
