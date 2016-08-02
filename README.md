@@ -5,12 +5,22 @@
 ## How to use
 
 	docker run -it \
-	--env AUTH_SERVICE=ptc \
-	--env USERNAME=username \
-	--env PASSWORD=password \
-	--env LOCATION="coords" \
-	--env GMAPS_KEY=key \
+	-e AUTH_SERVICE=ptc \
+	-e USERNAME=username \
+	-e PASSWORD=password \
+	-e LOCATION="coords" \
+	-e GMAPS_KEY=key \
 	dtandersen/pokemongo-map
+
+## Options
+
+| Option | Description |
+| ------ | ----------- |
+| AUTH_SERVICE | ptc or google |
+| USERNAME     | account username |
+| PASSWORD     | account password |
+| LOCATION     | location to scan |
+| GMAPS_KEY    | google maps api key |
 
 ## Legal
 
