@@ -1,4 +1,6 @@
-# Dockerfile for PokemonGo Map
+# PokemonGo Map Docker Image
+
+[PokemonGo Map](https://github.com/AHAAAAAAA/PokemonGo-Map) provides live visualization of pokemon, pokestops, and gyms for Pokemon GO.
 
 ## How to use
 
