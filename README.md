@@ -21,6 +21,8 @@
 | PASSWORD     | account password |
 | LOCATION     | location to scan |
 | GMAPS_KEY    | google maps api key |
+| SCAN_DELAY   | delay in seconds between requests |
+| STEP_LIMIT   | how wide the scan is |
 
 ## Legal
 

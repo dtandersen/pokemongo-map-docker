@@ -7,6 +7,7 @@ cd /PokemonGo-Map
 	-l "$LOCATION" \
 	-k $GMAPS_KEY \
 	-sd $SCAN_DELAY \
+	-st $STEP_LIMIT \
 	-t 1 \
 	-H $HOST \
 	-P $PORT \

@@ -11,8 +11,7 @@ RUN git clone -b master https://github.com/AHAAAAAAA/PokemonGo-Map.git \
 
 EXPOSE 5000
 
-ENV SCAN_DELAY=60 HOST=0.0.0.0 PORT=5000
+ENV SCAN_DELAY=15 STEP_LIMIT=4 HOST=0.0.0.0 PORT=5000
 COPY entrypoint.sh .
 RUN chmod 550 entrypoint.sh
-#CMD ["/usr/bin/python", "runserver.py", "-a", "$AUTH_SERVICE", "-u", "$USERNAME", "-p", "$PASSWORD", "-l", "$LOCATION", "-k", "$GMAPS_KEY", "-sd", "$SCAN_DELAY", "-t", "1", "-H", "$HOST", "-P", "$PORT", "-d"]
 CMD /entrypoint.sh
