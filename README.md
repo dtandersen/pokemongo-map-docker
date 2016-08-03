@@ -21,13 +21,13 @@
 
 | Option | Description |
 | ------ | ----------- |
-| AUTH_SERVICE | ptc or google |
-| USERNAME     | account username |
-| PASSWORD     | account password |
-| LOCATION     | location to scan |
-| GMAPS_KEY    | google maps api key |
-| SCAN_DELAY   | delay in seconds between requests |
-| STEP_LIMIT   | how wide the scan is |
+| AUTH_SERVICE | "ptc" or "google" |
+| USERNAME     | Account username |
+| PASSWORD     | Account password |
+| LOCATION     | e.g. "San Francisco, CA" or "37.787616, -122.388435" |
+| GMAPS_KEY    | Google Maps api key |
+| SCAN_DELAY   | Delay (s) between API requests |
+| STEP_LIMIT   | How wide the scan is |
 
 ## Legal
 
