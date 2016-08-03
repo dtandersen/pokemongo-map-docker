@@ -1,3 +1,8 @@
+# Supported tags and respective `Dockerfile` links
+
+- `latest` [(develop/Dockerfile)](https://github.com/dtandersen/pokemongo-map-docker/blob/master/Dockerfile)
+- `2.1.0` [(2.1.0/Dockerfile)](https://github.com/dtandersen/pokemongo-map-docker/blob/2.1.0/Dockerfile)
+
 # PokemonGo Map Docker Image
 
 [PokemonGo Map](https://github.com/AHAAAAAAA/PokemonGo-Map) provides live visualization of pokemon, pokestops, and gyms for Pokemon GO.
